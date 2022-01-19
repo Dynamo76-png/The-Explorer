@@ -29,13 +29,21 @@ public class Enemy_Master : MonoBehaviour
         if(Distance <=30)
         {
             IsChasing = true;
+            Enemy.SetBool("IsChasing", true);
         }
         if(Distance > 30f)
         {
             IsChasing = false;
+            Enemy.SetBool("IsChasing", false);
         }
 
-        if(IsChasing)
+        if (Distance <= 5)
+        {
+            IsChasing = true;
+            Enemy.SetBool("IsChasing", false);
+            Enemy.SetTrigger("Attacking");
+        }
+        if (IsChasing)
         {
 
             _agent.isStopped = false;
