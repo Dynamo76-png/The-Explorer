@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{40A44999-37DC-FCBF-FBE7-3689074DC1BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{96883F77-50D5-CB53-E3B9-EB253CC7F0D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsTestsPlaymode", "NavMeshComponentsTestsPlaymode.csproj", "{0C9B22C0-31CF-12BF-7793-C7389393A172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsExamples", "NavMeshComponentsExamples.csproj", "{AB211570-43A9-0A44-33AA-1FDC381C0C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponents", "NavMeshComponents.csproj", "{B71966D1-1558-1143-D309-4C936912D8FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsTestsEditmode", "NavMeshComponentsTestsEditmode.csproj", "{79CD3345-0001-396F-813E-6175DF85BBCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{88737937-06AC-7817-2E15-4D2348F307F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsExamplesEditor", "NavMeshComponentsExamplesEditor.csproj", "{DB294D27-A510-109E-845A-C41215E8FA75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +25,30 @@ Global
 		{40A44999-37DC-FCBF-FBE7-3689074DC1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40A44999-37DC-FCBF-FBE7-3689074DC1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40A44999-37DC-FCBF-FBE7-3689074DC1BD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96883F77-50D5-CB53-E3B9-EB253CC7F0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96883F77-50D5-CB53-E3B9-EB253CC7F0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96883F77-50D5-CB53-E3B9-EB253CC7F0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96883F77-50D5-CB53-E3B9-EB253CC7F0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9B22C0-31CF-12BF-7793-C7389393A172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9B22C0-31CF-12BF-7793-C7389393A172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9B22C0-31CF-12BF-7793-C7389393A172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9B22C0-31CF-12BF-7793-C7389393A172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB211570-43A9-0A44-33AA-1FDC381C0C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB211570-43A9-0A44-33AA-1FDC381C0C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB211570-43A9-0A44-33AA-1FDC381C0C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB211570-43A9-0A44-33AA-1FDC381C0C76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B71966D1-1558-1143-D309-4C936912D8FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71966D1-1558-1143-D309-4C936912D8FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71966D1-1558-1143-D309-4C936912D8FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71966D1-1558-1143-D309-4C936912D8FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CD3345-0001-396F-813E-6175DF85BBCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CD3345-0001-396F-813E-6175DF85BBCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CD3345-0001-396F-813E-6175DF85BBCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CD3345-0001-396F-813E-6175DF85BBCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88737937-06AC-7817-2E15-4D2348F307F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88737937-06AC-7817-2E15-4D2348F307F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88737937-06AC-7817-2E15-4D2348F307F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88737937-06AC-7817-2E15-4D2348F307F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB294D27-A510-109E-845A-C41215E8FA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB294D27-A510-109E-845A-C41215E8FA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB294D27-A510-109E-845A-C41215E8FA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB294D27-A510-109E-845A-C41215E8FA75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

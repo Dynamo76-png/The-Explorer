@@ -5,11 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneButton : MonoBehaviour
 {
-    public string sceneToLoad;
-
-
-    public void GoToScene()
-    {     
-      SceneManager.LoadScene(sceneToLoad);  
+    public void PlayGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);  
     }
 }

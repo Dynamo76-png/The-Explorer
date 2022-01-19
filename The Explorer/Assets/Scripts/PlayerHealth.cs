@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -57,10 +57,7 @@ public class PlayerHealth : MonoBehaviour
     // This function will kill the player
     public void Kill()
     {
-        // This will destroy the gameObject that this script is attached to
-        Destroy(gameObject);
-
-        SceneManager.LoadScene(gameOverScene);
+              SceneManager.LoadScene(gameOverScene);
     }
 
 
